@@ -1,3 +1,3 @@
-<h1>Payment</h1>
+<h1>Monthly Loan Payment</h1>
 
-<p>The monthly payment is $<%= @payment %>.</p>
+<p>The monthly payment for a <%= @interest_rate.to_i %>% interest rate, <%= @number_of_payments.to_i %> payments and $<%= @present_value.to_i %> as the present value of the property will be $<%= @answer.to_i %>.</p>
